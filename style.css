@@ -136,6 +136,10 @@ nav {
     color: #EEEEEE;
 }
 
+.about p {
+    font-size: 1.1rem;
+}
+
 footer {
     font-family: 'Poppins';
     font-size: 0.9rem;
@@ -158,4 +162,69 @@ footer {
     text-align: center;
     margin-bottom: 10;
     color: #EEEEEE;
+}
+
+.contact, .contact {
+    padding: 40px 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.content h2, .contact h1 {
+    font-family: 'Poppins';
+    color: #EEEEEE;
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+}
+
+.contact form{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #EEEEEE;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.contact form button {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background-color: #040404;
+    color: #DC5F00;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.contact form input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #DC5F00;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.contact form textarea {
+    resize: none;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #DC5F00;
+    border-radius: 5px;
+    font-size: 1rem;
+
+}
+
+.contact form button:hover {
+    background-color: #7a7a7a;;
 }
